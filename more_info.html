@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+ <h2>User information:</h2>
+   <ul>
+     <!-- the action attribut does, it takes the uses to the spacified doc or link, for eg. in this one it will takle the user to  -->
+     <!-- the home page, but if u used "mailto" then it will take u to the emial section and 
+     the "post" it will insert all the information  -->
+     <!-- you put into the form -->
+     <!-- <form action="vscoding_pro.html"> -->
+      <form action="mailto: nat.hellow@gamil.com" method="post" enctype="text/plain">
+        <li><label> Your name: <input type="text"></label><br></li>
+        <!-- the input is a self closeing tag -->
+        <li><label >Your email: <input type="email" name="user_email"></label><br></li>
+        <li><label>Input your password: <input type="password"></label><br></li>
+        <li><label>Done <input type="checkbox"></label><br></li>  
+
+        <fieldset> <!--to creat a box same as the border one from the tabel -->
+          <legend>Did you write your name?</legend>
+          <label><input type="radio" name="radio" value="yes" /> Yes</label>
+          <label><input type="radio" name="radio" value="no" /> No</label>
+        </fieldset><br>
+    
+        <label> Feed back</label>
+        <textarea name="textbox" cols="15" rows="1"></textarea><br>
+        <input type="submit">
+    
+      </form> 
+    </ul> 
+</body>
+</html>
